@@ -1,0 +1,54 @@
+#container {
+}
+
+body {
+	font-family: Garamond, Verdana, sans-serif;
+}
+
+
+	h1 {
+		font-family: Papyrus, Times;
+	}
+
+	header {
+		background-color: gold;
+		border: 5px purple solid;
+		margin: 0px;
+		}
+
+	body header h1 {
+		border-top: 3px purple solid;
+		border-bottom: 4px purple solid;
+		}
+
+	#article {
+		background-color: gold;
+	}
+		#article h2, #article h3 {
+			background-color: white;
+			margin: 0;
+		}
+		#article h3 {
+			border-bottom: 2px black solid;
+		}
+
+	body img:last-child {
+		display: inline-block;
+	}
+
+	p {
+		display: inline;
+		vertical-align: bottom;
+	}
+
+.italics {
+	font-style: italic;
+}
+
+.boldly {
+	font-weight: bold;
+}
+
+.purple {
+	color: purple;
+}
